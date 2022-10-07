@@ -7,6 +7,7 @@ public class playercontroller : MonoBehaviour
 
     public GameObject groundChecker;
     public LayerMask whatIsGround;
+    public Animator anim;
 
     float maxSpeed = 5.0f;
     bool isOnGround = false;
@@ -40,14 +41,13 @@ public class playercontroller : MonoBehaviour
 
        
             
-         //Creat a `Float' that will be equal to the players horizontal input 
-        float movementValuX = Input.GetAxis("Horizontal");
+     
 
         //Set momvemtValueX to 1.0f, so that we always run foraward and no longer care about player input
         float movementValueX = 1.0f;
         
         //Chnage the x velocity of the Rigidbody2D to be equal to the movment value
-        playerObject.velocity = new Vector2 (movementValuX * speed, playerObject.velocity.y);
+        playerObject.velocity = new Vector2 (movementValueX * speed, playerObject.velocity.y);
 
         //check to see if the ground check object is touching the ground
         isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position, 1.0f, whatIsGround);
@@ -55,6 +55,7 @@ public class playercontroller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true){
             playerObject.AddForce(new Vector2(0.0f, 800.0f));
         }
+        anim.SetFloat("speed", movementValueX);
     }
 
 }
