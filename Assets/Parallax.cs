@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-   /* GameObject player; //References to the player so we can track its poition
+    public GameObject player; //References to the player so we can track its poition
     Renderer rend; //Reference to the Render so we xan modify its texture
 
     float playerStartPost; //Float used to track the starting position of the player
@@ -25,5 +25,5 @@ public class Parallax : MonoBehaviour
 
         rend.material.SetTextureOffset("_MainTex", new Vector2(offset, 0f));
         
-    }*/
+    }
 }
