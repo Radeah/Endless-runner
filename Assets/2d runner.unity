@@ -524,6 +524,7 @@ GameObject:
   - component: {fileID: 934625275}
   - component: {fileID: 934625274}
   - component: {fileID: 934625273}
+  - component: {fileID: 934625276}
   m_Layer: 0
   m_Name: sky
   m_TagString: Untagged
@@ -539,8 +540,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934625271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.121, y: 1.1, z: 3}
-  m_LocalScale: {x: 85.06751, y: 47.180058, z: 47.180058}
+  m_LocalPosition: {x: -2.7104, y: 7.7089, z: 2.9837}
+  m_LocalScale: {x: 110.580185, y: 60.360027, z: 46.411022}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 3
@@ -608,6 +609,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934625271}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &934625276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934625271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6cbc9cc54bea8c479436c12d71ab38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 934625271}
+  speed: 0
 --- !u!1 &1043608590
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +702,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.1126401, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -698,7 +713,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2022991, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1194064373
 GameObject:
@@ -790,7 +805,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 11449be2e489d08418080ec8e334991e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -832,7 +847,7 @@ Rigidbody2D:
   m_Mass: 1.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.5
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -920,8 +935,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826641817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.05, y: 6.12, z: 9.879906}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 21.05, y: 7.17, z: 7.1}
+  m_LocalScale: {x: 1, y: 1.2875, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 1
@@ -944,7 +959,7 @@ MonoBehaviour:
   - {fileID: 9171474358135336899, guid: e7f1b8c74a5be7e448746b626d3b95ca, type: 3}
   - {fileID: 6816979675770642967, guid: 41147dc7b249c14418761ab1c17f6f00, type: 3}
   minSpawnTime: 1
-  maxSpawnTime: 2
+  maxSpawnTime: 3
 --- !u!1 &1862386937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,6 +1065,7 @@ GameObject:
   - component: {fileID: 1913992178}
   - component: {fileID: 1913992177}
   - component: {fileID: 1913992176}
+  - component: {fileID: 1913992179}
   m_Layer: 0
   m_Name: building
   m_TagString: Untagged
@@ -1065,8 +1081,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913992174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0975, y: -2.9, z: 2}
-  m_LocalScale: {x: 85.17439, y: 47.180058, z: 47.180058}
+  m_LocalPosition: {x: -3.8956, y: 3.3601, z: 2}
+  m_LocalScale: {x: 100.36039, y: 54.544186, z: 46.411022}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 4
@@ -1134,3 +1150,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913992174}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1913992179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913992174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6cbc9cc54bea8c479436c12d71ab38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1913992174}
+  speed: 5
