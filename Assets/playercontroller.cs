@@ -39,10 +39,6 @@ public class playercontroller : MonoBehaviour
 
         }
 
-       
-            
-     
-
         //Set momvemtValueX to 1.0f, so that we always run foraward and no longer care about player input
         float movementValueX = 1.0f;
         
@@ -53,7 +49,7 @@ public class playercontroller : MonoBehaviour
         isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position, 0.5f, whatIsGround);
 
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true){
-            playerObject.AddForce(new Vector2(0.0f, 800.0f));
+            playerObject.AddForce(new Vector2(0.0f, 850.0f));
         }
         anim.SetFloat("speed", movementValueX);
     }
