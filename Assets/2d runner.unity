@@ -1058,6 +1058,7 @@ MonoBehaviour:
   - {fileID: 8224098627910720640, guid: 0ca9ef295f578c24ba10527187c31996, type: 3}
   - {fileID: 9171474358135336899, guid: e7f1b8c74a5be7e448746b626d3b95ca, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   - {fileID: 8224098627910720640, guid: 0ca9ef295f578c24ba10527187c31996, type: 3}
   minSpawnTime: 3
@@ -1067,6 +1068,11 @@ MonoBehaviour:
   minSpawnTime: 3
   maxSpawnTime: 2
 >>>>>>> Stashed changes
+=======
+  - {fileID: 9171474358135336899, guid: e7f1b8c74a5be7e448746b626d3b95ca, type: 3}
+  minSpawnTime: 1
+  maxSpawnTime: 4
+>>>>>>> parent of cf8d8a0 (add in scoring sytem)
 =======
   - {fileID: 9171474358135336899, guid: e7f1b8c74a5be7e448746b626d3b95ca, type: 3}
   minSpawnTime: 1
@@ -1278,10 +1284,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream
   speed: 0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   speed: 0.5
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of cf8d8a0 (add in scoring sytem)
 --- !u!1 &1997649110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,4 +1393,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of cf8d8a0 (add in scoring sytem)
+=======
 >>>>>>> parent of cf8d8a0 (add in scoring sytem)
