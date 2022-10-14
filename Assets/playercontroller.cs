@@ -49,7 +49,7 @@ public class playercontroller : MonoBehaviour
         isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position, 0.5f, whatIsGround);
 
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true){
-            playerObject.AddForce(new Vector2(0.0f, 1220.0f));
+            playerObject.AddForce(new Vector2(0.0f, 1275.0f));
         }
         anim.SetFloat("speed", movementValueX);
     }
