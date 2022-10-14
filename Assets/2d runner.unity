@@ -854,7 +854,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1587077440}
+<<<<<<< Updated upstream
   speed: 0.02
+=======
+  speed: 0.5
+>>>>>>> Stashed changes
 --- !u!1 &1043608590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,9 +1441,15 @@ MonoBehaviour:
   - {fileID: 5558494712615814026, guid: 695fbdbb680ae6042a1012d957fb3b62, type: 3}
   - {fileID: 8224098627910720640, guid: 0ca9ef295f578c24ba10527187c31996, type: 3}
   - {fileID: 9171474358135336899, guid: e7f1b8c74a5be7e448746b626d3b95ca, type: 3}
+<<<<<<< Updated upstream
   - {fileID: 8224098627910720640, guid: 0ca9ef295f578c24ba10527187c31996, type: 3}
   minSpawnTime: 3
   maxSpawnTime: 3
+=======
+  - {fileID: 6816979675770642967, guid: 41147dc7b249c14418761ab1c17f6f00, type: 3}
+  minSpawnTime: 3
+  maxSpawnTime: 2
+>>>>>>> Stashed changes
 --- !u!1 &1862386937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,4 +1653,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1587077440}
+<<<<<<< Updated upstream
   speed: 0.05
+=======
+  speed: 0.5
+>>>>>>> Stashed changes
